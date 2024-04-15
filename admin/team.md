@@ -1,4 +1,4 @@
-![team name and logo](admin/branding/team-header.png)
+![team name and logo](branding/team-header.png)
 
 ###  - - CSE 110 Team 23 - -
 
