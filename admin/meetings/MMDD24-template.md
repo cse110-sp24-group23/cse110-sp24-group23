@@ -1,9 +1,12 @@
-# Meeting Notes MM/DD
+# Group 23 Meeting Notes MM/DD 
 ### Meeting Type
 ### Attendance
+### Location
 ### Meeting Time/Place
-### Agenda
-### Items for Future Investigation
-### Decisions
-### Action Items
+## Agenda
+### Unresolved Business
+### New Items
+### Items for Future Discussion
+## Decisions & Reasonings
+## Action Items
 
