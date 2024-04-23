@@ -35,8 +35,9 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 
 #### HTML
  - File names must be all lower case with hyphens to separate words
-   - Ex: `home-page.html`
-
+   - Ex: `admin-auth.html`
+ - Try to keep file names to single names
+   - Ex: `home.html`, `contact.html`, `login.html`
 #### CSS
  - File names must be all lowercase with hyphens to separate words
    - Ex: `admin-auth.css`
@@ -86,7 +87,20 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 ## Code Format
  - Single lines of code must not exceed 100 characters unless they are imports
  - Indentations should be 4 spaces, not tabs
- - For JavaScript, Use [prettier.io](https://prettier.io/playground/#N4Igxg9gdgLgprEAuEAzArlMMCW0AEAEnADYkQDqEATiQCYAUwA5tXHLlM-gLz4A6IABalyggDT5W7eHV74A5IKq06ghZIDOOEghjzUAQxKa4k6AFkI6UwHkAbnGriAvgEp8wflG-58OVAYAQmkOHC43YDYYdGoofCh0MhcAbm9fPz8Aeiz8ABVbABFbJHxC6AV9Gzh8akMoOggAW394tganDN19RJa+C0MYIQA6VHIafAYBoeG6huaGDwAqfABGAFEAagB2N2GYCABlGGpw5kXZuAAHEkMwOAYs-n5h57pNrJxmSUFBN3T4rUOLF4gAeOg4ez4MC3TSaAByhiacB4CmIZEoNHoCnwuBguh4wAABgBNaz4QxsfD2HDaA7UBLoJoAIyc+AAJMBGS0XESXPhLNY7I5qITBdUHE4XAA+AGZfCgzQnaDMaVc0KcZjDTQkHD3Bj4AAMklW+D2BwAqlcrk4AMKGUyLfCbKRsMJcbW6-Wrc0QAAyEAA7naHQ8PC5QVkldQVbLAX4WG7NcMEHRNBQcEMGBI-vgAPwCECF-ClRVXer4JUATwJwGAkHI1FKSn40irChcMokhcjmnLUGl+BcGT8oLgTTj-Bg6qTcDkw58MEj47j8q5DG0ulg-3jmQLgleIBHmVKgiCggXx8jEPs0rSPigLhA4hAECuuGgmmQoEpMcDAAVKQQL8UGMQNDCrL8X2ZOowAAaw4Q4kTgP1wjgZAjBMMwQBgu4EJgQ5yzAM5kBOdBsNMJocFI6hyJfOAAA8bVOZFYGMPInCgSkcDgEDMNMF9tC4XQAEV0AgeAMOMASQAAK00BjDjOUTxMkpB+OwgBHVS4H-GMrhAkAHQAWigdg6DnZ8QBOQwdDOW1miaQxkCMsgrKE5hdAAQRgE4cGZdB4H-JxULMqSsJfIQYCaEgKCETNeKIuBDmAzNIUzKsXLAOErPsciAEkOlgQ4wFOd8vIaY4a3Q9TpOwq4Y1MCg6iuFyGt4pxHCs8JTGoGA9MMZgnPCmTy2oXqXOZQxWRIKyGvCGAMzoIZkAADmNEA2G0nA2AGobnNqiKQGqPJpr4ur6JZOcLLoP16mYdBBrgAAxGgnN8kjQMCiArJgaalpWpAABZOyAA) with --tab-width = 4 for general formatting
+ - For JavaScript, HTML, and CSS Use [prettier with VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) with tabWidth = 4 for general formatting. Find information on how to set it up [here](https://scottsauber.com/2017/06/10/prettier-format-on-save-never-worry-about-formatting-javascript-again/). Here is what the settings.json should look like after installing the prettier VS Code extension:
+      ```
+      {
+          "[javascript]": {
+              "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[html]": {
+              "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[css]": {
+              "editor.defaultFormatter": "esbenp.prettier-vscode"
+          }
+      }
+      ```
 
 ## Code Practices
  - KEEP CODE READABLE
