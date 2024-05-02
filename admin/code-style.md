@@ -72,7 +72,7 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 
 #### JavaScript
 
-- Most names should be lowerCamelCase
+- Most names (except file names) should be lowerCamelCase
   - variables, functions, properties, etc.
   - Ex: `thisVariableHasManyWords`, `getUserProfile()`
 - Helper functions must have an underscore before them, denoting that they are private
