@@ -2,10 +2,11 @@
 
 ## Table of contents:
 
-1. [Naming](naming)
-2. [Documentation](documentation)
-3. [Code Format](code-format)
-4. [Coding Practices](code-practices)
+
+1. [Naming](#naming)
+2. [Documentation](#documentation)
+3. [Code Format](#code-format)
+4. [Code Practices](#code-practices)
 
 ### Terminology Note:
 
@@ -72,7 +73,7 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 
 #### JavaScript
 
-- Most names should be lowerCamelCase
+- Most names (except file names) should be lowerCamelCase
   - variables, functions, properties, etc.
   - Ex: `thisVariableHasManyWords`, `getUserProfile()`
 - Helper functions must have an underscore before them, denoting that they are private
@@ -80,7 +81,7 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 - constants should be all uppercase with underscores separating words (snake case)
   - Ex: `const PORT = 3000`, `const DAYS_PER_WEEK = 7`
   - This does not apply to everything with the `const` keyword. Ex: `const user_input = _getUserInput()` is valid
-- Booleans should be named with ‘is’ or ‘has’ as a prefix
+- Booleans must be named with ‘is’ or ‘has’ as a prefix
   - Ex: `isEmpty` or `hasPermission`
 - Classes and components (if using a frontend framework like React) must use UpperCamelCase
   - Ex: `class UserProfile(firstName, lastName)`, `let softwareDev = new SoftwareDeveloper()`
@@ -104,7 +105,7 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 ## Code Format
 
 - Single lines of code must not exceed 100 characters unless they are imports
-- Indentations should be 4 spaces, not tabs
+- Indentations must be 4 spaces, not tabs
 - For JavaScript, HTML, and CSS Use [prettier with VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) with tabWidth = 4 for general formatting. Find information on how to set it up [here](https://scottsauber.com/2017/06/10/prettier-format-on-save-never-worry-about-formatting-javascript-again/). Here is what the settings.json should look like after installing the prettier VS Code extension:
   ```
   {
@@ -243,7 +244,7 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
     - Ex: `let numUsers = 45`
 - Functions
   - Use helper functions to do sub-tasks.
-  - A lower level helper functions should perform one task
+  - A lower level helper function should perform one task
   - Functions should be less than 100 lines long
   - Place helper function/methods definitions below user functions/methods
     - Ex:
