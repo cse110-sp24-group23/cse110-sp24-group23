@@ -39,8 +39,12 @@ Note: examples are given for JavaScript. Use correct naming conventions for each
 
 ### Naming Conventions:
 
--   File names must be all lowercase with hyphens to separate words
+-   File names and git branches must be all lowercase with hyphens to separate words
+
     -   Ex: `admin-auth.html`
+
+-   Commit messages should start with `fixes #___`, replacing `___` with the issue number(s) it fixes.
+    -   Ex: `fixes #23 #24 - added more naming conventions to code-style.md and updated formatting`
 
 #### HTML
 
