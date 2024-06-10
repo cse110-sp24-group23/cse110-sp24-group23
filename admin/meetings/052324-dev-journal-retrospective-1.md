@@ -60,6 +60,7 @@ Liked:
 - Each member got most work done
 - Everything felt much more organized due to Github Projects
 - Pair development was a success
+
 Didn't Like:
 
 - Planning and Collaboration
